@@ -4,7 +4,7 @@ var fruits = ["Apple", "Banana", "Orange"];
 var bananaIndexNumber = fruits.indexOf("Banana");
 
 //replase banana to mango
-fruits[1] = "Mango";
+fruits[bananaIndexNumber] = "Mango";
 
 //remove the last valu of the array
 fruits.pop("Orange");
